@@ -8354,6 +8354,12 @@ a[data-toggle="collapse"] {
   background-color: #F7F7F7;
 
 }
+#aboutme{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F7F7F7;
+
+}
 #projects{
   width: 100%;
   min-height: 100vh;
@@ -8435,8 +8441,35 @@ i.fa {
   box-shadow: 0px 0px 13px #888;
   padding: 0.5em 0.6em;
   color : #696969;
+}
+
+#main i.fa {
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 0px 0px 13px #fff;
+  padding: 0.5em 0.6em;
+  color : #fff;
 
 }
+#main a:hover{
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px #fff;
+  padding: 0.7em 0.7em;
+  color : #fff;
+}
+#contact a:hover i{
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 0px 0px 18px #696969;
+  padding: 0.6em 0.6em;
+  color : #696969;
+}
+#info:hover{
+  color:#fff;
+  background-color: #696969;
+}
+
 a:link {
   text-decoration: none;
 }
